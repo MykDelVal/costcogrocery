@@ -1,0 +1,83 @@
+.text-portada {
+    font-size: larger;
+    color: rgb(11, 11, 12);
+  }
+  
+  /*.caja-candy */
+  .caja-candy {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .cajacandy { /*img de candybar*/
+    display: flexbox;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .text-candy { /*texto de candybar*/
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    gap: 20px;
+    font-size: 14px;
+    padding: 20px;
+  }
+  
+  .container { /*index*/
+    display: flexbox;
+  }
+  
+  .card { /*index*/
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .form { /*main contacto*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  input, textarea { /*main contacto*/
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  iframe { /*contacto*/
+    width: 100%;
+    height: 300px;
+    border: 0;
+  }
+  
+  .elementopadre { /*main producto*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .tituloprecio { /*main producto*/
+    text-align: center;
+  }
+
+ 
+  @media only screen and (max-width: 767px) { /*foto main nosotros*/
+    .imgnosotros{
+        font-size: 14px;
+        width: 5rem
+
+
+    }
+        
+       
+    }
